@@ -2,6 +2,7 @@
 
 system_packages:
   - python3-dev
+  - virtualenv
   - git
   - g++
   - gcc
