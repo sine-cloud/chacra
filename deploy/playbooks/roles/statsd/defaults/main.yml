@@ -1,7 +1,8 @@
 ---
 
 statsd_debug: 'false'
-statsd_version: v0.8.0
+git_statsd: "https://github.com/sine-cloud/statsd"
+statsd_version: v0.9.0
 statsd_port: 8125
 
 graphite_port: 2003

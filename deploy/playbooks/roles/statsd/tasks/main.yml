@@ -13,7 +13,7 @@
   user: name=node state=present shell=/bin/false system=yes
 
 - name: Install statsd from GitHub
-  git: "repo=https://github.com/etsy/statsd.git dest={{ app_home }}/src/statsd update=no version={{ statsd_version }}"
+  git: "repo={{ git_statsd }} dest={{ app_home }}/src/statsd update=no version={{ statsd_version }}"
 
 - name: Get directory permissions
   stat: path={{ app_home }}/src/statsd
