@@ -1,6 +1,6 @@
 [production]
-chacra.ceph.com short_hostname=chacra
+chacra.sinecloud.com short_hostname=chacra
 
 [test]
-1.chacra.ceph.com short_hostname=chacra1
-2.chacra.ceph.com short_hostname=chacra2
+1.chacra.sinecloud.com short_hostname=chacra1
+2.chacra.sinecloud.com short_hostname=chacra2

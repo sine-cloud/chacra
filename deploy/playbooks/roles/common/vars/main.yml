@@ -1,7 +1,6 @@
 ---
 
 system_packages:
-  - python-dev
   - python3-dev
   - git
   - g++
@@ -14,9 +13,9 @@ system_packages:
   - nginx
   - vim
   # needed for the ansible apt_repository module
-  - python-apt
+  - python3-apt
 #  - libsemanage-python
-  - python
+  - python3
   - liblz4-tool
   - zstd
 
