@@ -34,7 +34,7 @@
      ## required for first deploy
      # callback_user: "admin"
      # callback_key: "secret"
-     callback_verify_ssl: True
+     callback_verify_ssl: False
      health_ping: true
      health_ping_url: "https://shaman.sinecloud.com/api/nodes/"
      use_letsencrypt: False
